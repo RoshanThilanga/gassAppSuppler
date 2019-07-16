@@ -1,0 +1,116 @@
+page-orderhistory {
+    
+
+    
+    
+
+        .bg-image{
+            background-image: url('../assets/imgs/back.jpg');
+            background-size: cover;
+    
+        }
+    
+        .ornum{
+            margin: 10px !important;
+            color: #020b3a !important;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    
+        .card1{
+            border-radius: 5px;
+        }
+    
+    
+        .ornum{
+            margin: 10px !important;
+            color: #020b3a !important;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    
+        .cusInfo{
+            margin: 10px !important;
+            color: #020b3a !important;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    
+    .order_text
+    {
+            text-align: left;
+            box-shadow: none !important;
+    }
+        
+    .button_order
+    {
+        background: #032143;
+        background-image: -webkit-linear-gradient(top, #032143, #032143);
+        background-image: -moz-linear-gradient(top, #032143, #032143);
+        background-image: -ms-linear-gradient(top, #032143, #032143);
+        background-image: -o-linear-gradient(top, #032143, #032143);
+        background-image: linear-gradient(to bottom, #032143, #032143);
+        -webkit-border-radius: 60;
+        -moz-border-radius: 60;
+        border-radius: 60px;
+       
+        color: #ffffff;
+        font-size: 15px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        width: 100%;  
+        font-family: pasifico;
+    }
+    .h1font
+    {
+        font-weight: 800;
+        font-family: pasifico;
+    }
+
+    .box
+    {
+        padding:15px;
+        border-radius: 35px;
+    }
+
+    .button_Header
+    {
+        background: #032143;
+        background-image: -webkit-linear-gradient(top, #e25252, #e25252);
+        background-image: -moz-linear-gradient(top, #e25252, #e25252);
+        background-image: -ms-linear-gradient(top, #e25252, #e25252);
+        background-image: -o-linear-gradient(top, #e25252, #e25252);
+        background-image: linear-gradient(to bottom, #e25252, #e25252);
+        -webkit-border-radius: 60;
+        -moz-border-radius: 60;
+        border-radius: 60px;
+       
+        color: #ffffff;
+        font-size: 15px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        width: 100%;  
+        font-family: pasifico;
+    }
+    .button_Header2
+    {
+        background: #376ba7;
+        background-image: -webkit-linear-gradient(top, #376ba7, #376ba7);
+        background-image: -moz-linear-gradient(top, #376ba7, #376ba7);
+        background-image: -ms-linear-gradient(top, #376ba7, #376ba7);
+        background-image: -o-linear-gradient(top, #376ba7, #376ba7);
+        background-image: linear-gradient(to bottom, #376ba7, #376ba7);
+        -webkit-border-radius: 60;
+        -moz-border-radius: 60;
+        border-radius: 60px;
+       
+        color: #ffffff;
+        font-size: 15px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        width: 100%;  
+        font-family: pasifico;
+    }
+}
+
+

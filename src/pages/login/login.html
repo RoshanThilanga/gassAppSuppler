@@ -1,0 +1,49 @@
+<ion-header>
+ 
+</ion-header>
+
+<ion-content padding class="bg-image">
+
+  <div style="background-color: transparent;height: 200px;">
+    <ion-img class="imgclass" src="../assets/imgs/logo1.png" sty></ion-img>
+  </div>
+
+  <ion-card style="background-color: white;padding-top: 10px;" class="card3" align="center">
+
+    <h3 style="font-size: 20px;font-weight: 600; margin: 10px;color:#021c3f;  font-family: pasifico;">DEALER LOGIN</h3>
+
+
+
+    <ion-card style="background-color: white ;" class="textbox">
+      <ion-item style="background: transparent">
+        <!-- <ion-label style="color: black" stacked>Amount</ion-label> -->
+        <ion-input style="color: black; font-family: pasifico;"  type="number" autocapitalize=“off” value="" placeholder="User Name" [(ngModel)]="mobile"></ion-input>
+      </ion-item>
+     
+      <ion-item style="background: transparent;">
+        <!-- <ion-label style="color: black" stacked>Amount</ion-label> -->
+        <ion-input style="color: black; font-family: pasifico;"  type="password" autocapitalize=“off” value="" placeholder="Password" [(ngModel)]="mobile"></ion-input>
+      </ion-item>
+    </ion-card>
+    <!-- <ion-card style="background-color: white" class="card_re" >
+            <ion-item style="background: transparent">
+            
+              <ion-textarea style="color: black" type="text" autocapitalize=“off” value="" rows="6"
+                [(ngModel)]="remark"></ion-textarea>
+            </ion-item>
+          </ion-card> -->
+
+
+    <div align="center">
+      <button color="theme_blue" style=" height: 50px;border-radius: 10px; width: 90%;  font-family: pasifico;" ion-button full (click)="continue()">LOGIN</button>
+
+    </div>
+
+    <div style="height: 5px"></div>
+    <p align="center" (click)="back()">
+      <u class="white_underline">Forget Password</u>
+    </p>
+    <div style="height: 10px"></div>
+
+  </ion-card>
+</ion-content>

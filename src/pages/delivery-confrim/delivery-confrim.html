@@ -1,0 +1,132 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>orderConfirm</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding class="bg-image">
+  
+  
+    <ion-card style="background-color: white; " class="card1">
+  
+      <h4 class="cusInfo">Order 001</h4>
+      <ion-grid style="background-color: white;">
+        <ion-row>
+          <ion-col col-5 style="font-weight: 700;font-size: 14px">Item Name</ion-col>
+          <ion-col col-3 style="font-weight: 700;font-size: 14px">Qty</ion-col>
+          <ion-col col-4 style="text-align: end;font-weight: 700;font-size: 14px">Price</ion-col>
+  
+        </ion-row>
+  
+        <!-- <div *ngIf="isOngoing == 1"> -->
+        <ion-row style="background-color: white; color:white;border-bottom: 1px solid #d7d7d7;">
+          <!-- *ngFor="let item of ongoing_item; let i=index" (click)="packDe(item.packageId)"> -->
+  
+          <ion-col col-5>
+            <p style="color: black;line-height: 14px">Gas C 12.5 Kg</p>
+            <!-- {{item.itemName}}</p> -->
+          </ion-col>
+  
+          <ion-col col-3>
+            <p style="color: black;line-height: 14px">9</p>
+            <!-- {{item.itemName}}</p> -->
+          </ion-col>
+  
+          <ion-col col-4>
+            <p style="color: black;line-height: 14px;text-align: end">Rs. 1500.00</p>
+            <!-- {{item.qty}}</p> -->
+          </ion-col>
+  
+        </ion-row>
+  
+  
+        <ion-row style="background-color: white; color:white;border-bottom: 1px solid #d7d7d7;">
+          <!-- *ngFor="let item of ongoing_item; let i=index" (click)="packDe(item.packageId)"> -->
+  
+          <ion-col col-5>
+            <p style="color: black;line-height: 14px">Gas C 12.5 Kg</p>
+            <!-- {{item.itemName}}</p> -->
+          </ion-col>
+  
+          <ion-col col-3>
+            <p style="color: black;line-height: 14px">9</p>
+            <!-- {{item.itemName}}</p> -->
+          </ion-col>
+  
+          <ion-col col-4>
+            <p style="color: black;line-height: 14px;text-align: end">Rs. 1500.00</p>
+            <!-- {{item.qty}}</p> -->
+          </ion-col>
+  
+        </ion-row>
+  
+      </ion-grid>
+  
+      <p class="text2">Delivery Fee</p>
+      <p style="margin: 10px;color: black;line-height: 14px;text-align: end">Rs. 150.00</p>
+      <p class="text2">Total</p>
+      <p style="margin: 10px;color: black;line-height: 14px;text-align: end">Rs. 560050.00</p>
+  
+    </ion-card>
+  
+  
+  
+  
+    <ion-card style="background-color: white" class="card1">
+  
+      <h3 class="cusInfo">Customer Information</h3>
+      <p style="margin: 10px;">Roshan Werahara</p>
+      <p style="margin: 10px;">40/200, Pattiyawatte Road, Namal Pl, Kaduwela</p>
+      <p style="margin: 10px;">2019-07-23</p>
+  
+  
+    </ion-card>
+  
+  
+  </ion-content>
+  
+  
+  <ion-footer>
+  
+      <ion-card style="background-color: white;margin-bottom: 0px" class="footerCard" align="center">
+  
+  <!-- 
+        <p class="para" style="color:#0e2288; font-size: 20px;font-weight: 700">Total</p>
+        <p class="para" style="color:#0e2288; font-size: 30px;font-weight: 700">Rs. 100000.00</p>
+        <p class="para" style="color:#0e2288; font-size: 15px;font-weight: 700">Estimated Delivery Cost</p>
+        <p class="para" style="margin-bottom: 5px;color:#0e2288; font-size: 15px;font-weight: 700">Rs. 50.00 To Rs. 150.00</p> -->
+  
+        <div align="center">
+            <button color="button_order" style=" height: 50px;border-radius: 10px; width: 80%;" ion-button full type="confirm()">Delivery Confirm</button>
+  
+        </div>
+      
+      
+        </ion-card>
+  
+  
+    </ion-footer>
+  
+  <!-- <ion-footer>
+  
+  
+    <p>gdsg</p>
+  
+    <ion-card style="background-color: white" class="footerCard" align="center">
+  
+  
+      <p class="para" style="color:#0e2288; font-size: 20px;font-weight: 700">Total</p>
+      <p class="para" style="color:#0e2288; font-size: 30px;font-weight: 700">Rs. 100000.00</p>
+      <p class="para" style="color:#0e2288; font-size: 15px;font-weight: 700">Estimated Delivery Cost</p>
+      <p class="para" style="margin-bottom: 5px;color:#0e2288; font-size: 15px;font-weight: 700">Rs. 50.00 To Rs. 150.00</p>
+  
+      <div align="center">
+        <button color="theme_blue" style=" height: 50px;border-radius: 10px; width: 80%;" ion-button full type="checkout()">Checkout</button>
+  
+      </div>
+  
+  
+    </ion-card>
+  
+  
+  </ion-footer> -->

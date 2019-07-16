@@ -14,3 +14,15 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.textbox
+{
+    -webkit-box-shadow: 0.5px 0.5px 3px 1px #787878;
+box-shadow: 0.5px 0.5px 3px 1px #787878;
+}
+
+@font-face {
+    font-family: pasifico;
+    src: url(https://fonts.gstatic.com/s/rubik/v8/iJWKBXyIfDnIV7nBrXyw023e.woff2);
+   
+  }
